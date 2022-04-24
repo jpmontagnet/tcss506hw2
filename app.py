@@ -18,5 +18,7 @@ def f_owner():
 def f_datetime():
     return f"{ctime()}\n"
 
+app.run(host='0.0.0.0', debug=True)
+
 # END
 # vim: set ts=4 sw=4 expandtab :
